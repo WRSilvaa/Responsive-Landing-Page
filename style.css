@@ -1,3 +1,7 @@
+.hidden {
+    display: none;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -43,4 +47,10 @@ h2 {
 
 p {
     margin: 0;
+}
+
+
+.toggle-btn:focus {
+    outline: 2px solid #000;
+    outline-offset: 2px;
 }
